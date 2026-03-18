@@ -22,7 +22,7 @@ class $modify(CreatorLayer) {
 #include <Geode/modify/LevelSearchLayer.hpp>
 class $modify(LevelSearchLayer) {
 	bool init() {
-		if (!LevelSearchLayer::init()) {
+		if (!LevelSearchLayer::init(int type)) {
 			return false;
 		}
 
